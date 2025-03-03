@@ -6,7 +6,7 @@
 }
 
 .navbar-top {
-  position: fixed;  /* ทำให้ Navbar ติดด้านบน */
+  position: fixed;  
   top: 0;
   left: 0;
   width: 100%;
@@ -19,7 +19,7 @@
   z-index: 999;
 }
 body {
-  padding-top: 60px; /* ป้องกัน navbar ทับเนื้อหาด้านบน */
+  padding-top: 60px; 
 }
 .navbar-main {
   display: flex;
@@ -33,21 +33,21 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* ปรับระยะห่างระหว่างโลโก้กับ "KMITL CE" */
-  margin-left: 75px; /* ชิดซ้าย */
+  gap: 10px; 
+  margin-left: 75px; 
 }
 
 .logo-container img {
-  width: 50px;  /* กำหนดความกว้างของโลโก้ */
-  height: auto;  /* ป้องกันภาพบิดเบี้ยว */
-  object-fit: contain; /* ทำให้ภาพไม่ผิดสัดส่วน */
+  width: 50px; 
+  height: auto;  
+  object-fit: contain; 
   
 }
 
 .nav {
   display: flex;
-  margin-left: auto;  /* ให้ "หน้าหลัก" ไปอยู่ขวาสุด */
-  margin-right: 50px; /* ขยับ "หน้าหลัก" ออกจากขอบขวา */
+  margin-left: auto;  
+  margin-right: 50px; 
 }
 
 .nav a {
@@ -74,7 +74,6 @@ body {
   margin-right: -10px;
 }
 
-/* Hide checkbox */
 #menu-toggle {
   display: none;
 }
@@ -168,7 +167,7 @@ body {
   }
 
   .nav {
-    display: none; /* ซ่อนเมนูหลัก ให้ใช้ Sidebar แทน */
+    display: none; 
   }
 
   .sidebar {
@@ -192,7 +191,7 @@ body {
   }
 
   .logo-container img {
-    width: 40px; /* ลดขนาดโลโก้ */
+    width: 40px; 
   }
 
   .sidebar {
